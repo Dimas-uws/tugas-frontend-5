@@ -1,6 +1,6 @@
 const orangOrang = [
   {
-    nama: "Andi Wijaya",
+    nama: "Andi hidayat",
     alamat: "Jl. Merdeka No. 10, Jakarta",
     nomorHp: "081234567890",
     photoProfile: "https://randomuser.me/api/portraits/men/32.jpg",
@@ -42,7 +42,7 @@ const orangOrang = [
     bestie: false,
   },
   {
-    nama: "Fajar Nugroho",
+    nama: "Nugroho Tirta Kamil",
     alamat: "Jl. Cemara No. 3, Bekasi",
     nomorHp: "087890123456",
     photoProfile: "https://randomuser.me/api/portraits/men/41.jpg",
@@ -56,7 +56,7 @@ const orangOrang = [
     bestie: true,
   },
   {
-    nama: "Taufik Hidayat",
+    nama: "Ahok",
     alamat: "Jl. Dahlia No. 4, Palembang",
     nomorHp: "089012345678",
     photoProfile: "https://randomuser.me/api/portraits/men/67.jpg",
@@ -82,8 +82,8 @@ function Judul() {
 
 function CardsList({photoProfile, nama, alamat, nomorHp, bestie}) {
   return (
-    <div className="max-w-[600px] p-5 flex flex-col gap-4 border-[#EFEFEF] border-2 bg-white shadow-xl rounded-xl">
-      <div className="flex items-center gap-4">
+    <div className={`max-w-[600px] p-5 flex flex-col gap-4 border-[#EFEFEF] border-2 bg-white shadow-xl rounded-xl`}>
+      <div className={`flex items-center gap-4`}>
         <img src={photoProfile} alt="" className="rounded-[50%] max-w-16"/>
         <p>{nama}</p>
         {
