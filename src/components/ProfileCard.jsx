@@ -1,4 +1,4 @@
-export default function ProfileCard({ name, address, phone, pfp }) {
+export default function ProfileCard({ name, address, phone, pfp, bestie }) {
     return (
       <div className="card">
         <div>
